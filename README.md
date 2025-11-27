@@ -1,159 +1,167 @@
-🚀 Algoritma ve Programlama – Lab S1 Week 11
-Methods and Testing (Think Java Chapter 4)
-GitHub Classroom – Laboratuvar Çalışması
+# Algoritma ve Programlama I – Lab S1 Week 11
 
-Bu laboratuvar çalışmasında Think Java – Bölüm 4: Methods and Testing içindeki alıştırmaları Java ile uygulayacaksınız.
-Her egzersiz kendi klasöründe bulunacak ve tek bir .java dosyası olarak teslim edilecektir.
+## Methods and Testing (Think Java Chapter 4)
 
-📌 Genel Kurallar
+Bu laboratuvar çalışmasında **Think Java Bölüm 4: Methods and Testing** içindeki tüm egzersizleri Java kullanarak uygulayacaksınız. Her egzersiz kendi klasörü içinde yer alacak ve tek bir `.java` dosyası olarak teslim edilecektir.
 
-Her egzersiz kendi klasörü içinde olmalıdır.
+---
 
-Kodlarınız derlenebilir olmalıdır.
+## 📌 Genel Kurallar
 
-Java kaynak kodlarında Türkçe karakter kullanmayın.
-(ASCII uyumlu: sınıf isimleri, metot isimleri, değişkenler, string içerikleri dahil)
+* Her egzersiz **kendi klasörü** içinde yapılacaktır.
+* Kodunuzu **derlenebilir** durumda bırakmak sizin sorumluluğunuzdadır.
+* **Java kaynak kodlarında Türkçe karakter KULLANMAYIN.**
 
-README dosyaları ve açıklamalar Türkçe olabilir.
+  * ASCII uyumlu olmalı.
+  * `System.out.println("cikti")` gibi.
+* README veya açıklama dosyalarında Türkçe karakter kullanabilirsiniz.
+* Kodunuzu adım adım commit etmeyi ve pushlamayı unutmayın.
 
-Düzenli commit–push yapmayı unutmayın.
+---
 
-📝 Egzersizler
+## 📝 Egzersizler
 
-Aşağıdaki maddeler Think Java Chapter 4 egzersizlerinin özetidir.
-Detaylar için kitabın ilgili sayfasına bakabilirsiniz.
+Aşağıdaki maddeler Think Java Bölüm 4'teki resmi egzersizlerin birebir karşılığıdır.
+Detaylar için kitap sayfasını inceleyebilirsiniz.
 
-📘 Exercise 4.1 – Tarih Yazdırma Metotları
+---
 
-Görev:
+## 📘 Exercise 4.1 – Tarih Yazdırma Metotları
 
-printAmerican(day, date, month, year)
+**Görev:**
 
-printEuropean(day, date, month, year)
+`printAmerican(day, date, month, year)`
 
-Metotlarını yazın ve main içinde test edin.
+`printEuropean(day, date, month, year)`
 
-Dosya adı:
+Metotlarını yazın ve `main` içinde test edin.
+
+**Teslim Dosyası:**
+
+```
 Exercise4_1.java
+```
 
-📘 Exercise 4.2 – Çalışma Sırası (Flow of Execution)
+---
 
-Görev:
+## 📘 Exercise 4.2 – Çalışma Sırası (Flow of Execution)
 
-Verilen kodun tüm çalışma sırasını çıkarın.
+**Görev:**
 
-Her satırın sonuna çalışma numarasını ekleyin:
+* Verilen programdaki **her satırın çalışma sırasını** bulun.
+* Her satırın sonuna:
 
-// 1
-// 1, 7
-// 3, 9
+  ```java
+  // 1
+  // 1, 7
+  // 3, 9
+  ```
 
+  formatında yorum ekleyin.
+* Programın **tam çıktısını** yazın.
+* `baffle` metoduna ilk gönderilen `blimp` parametresinin değerini yazın.
 
-Programın tam çıktısını yazın.
+**Teslim Dosyası:**
 
-blimp parametresinin ilk değerini bulun.
-
-Dosya adı:
+```
 Exercise4_2.java
+```
 
-📘 Exercise 4.3 – Stack Diagram + Çıktı
+---
 
-Görev:
+## 📘 Exercise 4.3 – Stack Diagram + Program Çıktısı
 
-ping metodu ilk kez çağrıldığında stack diyagramı çizin.
+**Görev:**
 
-Programın ürettiği tam çıktıyı yazın.
+* `ping` metodu **ilk çağrıldığında** programın stack diyagramını çizin.
+* Programın ürettiği **tam çıktıyı** yazın.
 
-Stack diyagramını .md dosyası olarak ekleyebilirsiniz.
+**Not:** Stack diyagramı `.md` veya `.png` olarak ekleyebilirsiniz.
 
-Dosya adları:
+**Teslim Dosyası:**
+
+```
 Exercise4_3.java
-Exercise4_3_stack.md (opsiyonel)
+stack_diagram.md (veya .png)
+```
 
-📘 Exercise 4.4 – Derleyici Denemeleri
+---
 
-Aşağıdakileri derleyip gözlemleyin:
+## 📘 Exercise 4.4 – Derleyici Deneyleri
 
-Bir değer döndüren metodu çağırıp sonucunu kullanmazsanız ne olur?
+Aşağıdaki soruları **kendiniz derleyerek deneyin**:
 
-Bir void metodu ifadenin içinde kullanırsanız (örneğin System.out.println("boo!") + 7;) ne olur?
+1. Bir değer döndüren metodu çağırıp sonucunu kullanmazsanız ne olur?
+2. Bir **void** metodu bir ifadenin içinde kullanırsanız (ör: `System.out.println("boo!") + 7`) ne olur?
 
-Cevaplarınızı yorum satırı veya .md dosyası ile ekleyebilirsiniz.
+**Teslim Dosyası:**
 
-Dosya adı:
-Exercise4_4.java veya Exercise4_4.md
+```
+Exercise4_4.java (veya answers.md)
+```
 
-📘 Exercise 4.5 – Flow + Stack Diagram + Çıktı
+---
 
-Görev:
+## 📘 Exercise 4.5 – Flow + Stack Diagram + Çıktı
 
-zoop metodu ikinci kez çağrıldığında stack diyagramı çizin.
+**Görev:**
 
-Programın tam çıktısını yazın.
+* `zoop` metodu **ikinci kez** çağrıldığında stack diyagramını çizin.
+* Programın ürettiği **tam çıktıyı** hesaplayın.
 
-İsterseniz kodu derleyip sonucu karşılaştırabilirsiniz.
+**Teslim Dosyaları:**
 
-Dosya adları:
+```
 Exercise4_5.java
-Exercise4_5_stack.md (opsiyonel)
+stack_diagram_2.md
+```
 
-📘 Exercise 4.6 – Multadd ve expSum
+---
 
-Görevler:
+## 📘 Exercise 4.6 – Multadd ve expSum
 
-multadd(a, b, c) → a * b + c döndüren metodu yazın.
+**Görev:**
 
-expSum(x) →
+1. `multadd(a, b, c)` metodunu yazın → `a * b + c`
+2. `expSum(x)` metodunu yazın:
 
-𝑥
-𝑒
-−
-𝑥
-+
-1
-−
-𝑒
-−
-𝑥
-xe
-−x
-+1−e
-−x
+   * `x * Math.exp(-x) + (1 - Math.exp(-x))`
+3. `main` içinde şu ifadeleri test edin:
 
-ifadesini hesaplayın (Math.exp kullanın).
+   * `multadd(1.0, 2.0, 3.0)`
+   * `sin(pi/4) + cos(pi/4) / 2`
+   * `log(10) + log(20)`
 
-main içinde test edin:
+**Teslim Dosyası:**
 
-multadd(1.0, 2.0, 3.0)
-
-sin(pi/4) + cos(pi/4)/2
-
-log(10) + log(20)
-
-Dosya adı:
+```
 Multadd.java
+```
 
-🧪 Derleme ve Çalıştırma
+---
 
-Her klasörde aşağıdaki komutlar geçerlidir:
+## 🧪 Derleme Komutları
 
+Terminal kullananlar için tipik kullanım:
+
+```
 javac Exercise4_1.java
 java Exercise4_1
+```
 
+Her klasörde aynı şekilde çalıştırılır.
 
-İlgili egzersize göre dosya ismini değiştirin.
+---
 
-📤 Teslimat Kuralları
+## 📤 Teslim
 
-Tüm egzersiz klasörleri repository içinde bulunmalıdır.
+* Tüm klasörler **tek bir repository** içinde olmalıdır.
+* Commit mesajlarını düzenli ve açıklayıcı tutun.
+* Deadline’dan önce push yapmayı unutmayın.
 
-Commit mesajları anlaşılır ve düzenli olmalıdır.
+---
 
-Deadline’dan önce mutlaka push yapın.
+## 🏆 Başarılar!
 
-🏆 Başarılar!
-
-Bu laboratuvar, methods, flow of execution, stack diagrams ve Math metotları konusunu derinlemesine öğrenmeniz için tasarlanmıştır.
-Her egzersiz bir sonrakine temel oluşturur.
-
-Takıldığınız noktada GitHub Discussions veya ders hocasına danışabilirsiniz.
+Bu laboratuvar, Java metot yapısını ve program akışını derinlemesine anlamanız için tasarlanmıştır.
+Her egzersiz bir sonrakinin temelini oluşturur. Takıldığınız yerlerde GitHub Discussions veya ders hocasına danışabilirsiniz.
