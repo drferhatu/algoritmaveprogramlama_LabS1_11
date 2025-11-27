@@ -2,7 +2,7 @@
 
 ## Methods and Testing (Think Java Chapter 4)
 
-Bu laboratuvar çalışmasında **Think Java Bölüm 4: Methods and Testing** içindeki tüm egzersizleri Java kullanarak uygulayacaksınız. Her egzersiz kendi klasörü içinde yer alacak ve tek bir `.java` dosyası olarak teslim edilecektir.
+Bu laboratuvar çalışmasında **Think Java Bölüm 4: Methods and Testing** içindeki tüm egzersizleri Java kullanarak uygulayacaksınız. Her egzersiz kendi dosyası içinde yer alacak ve tek bir `.java` dosyası olarak teslim edilecektir.
 
 ---
 
@@ -22,7 +22,7 @@ Bu laboratuvar çalışmasında **Think Java Bölüm 4: Methods and Testing** i�
 ## 📝 Egzersizler
 
 Aşağıdaki maddeler Think Java Bölüm 4'teki resmi egzersizlerin birebir karşılığıdır.
-Detaylar için kitap sayfasını inceleyebilirsiniz.
+Detaylar için kitap web sayfasını da inceleyebilirsiniz.
 
 ---
 
@@ -76,7 +76,9 @@ Exercise4_2.java
 * `ping` metodu **ilk çağrıldığında** programın stack diyagramını çizin.
 * Programın ürettiği **tam çıktıyı** yazın.
 
-**Not:** Stack diyagramı `.md` veya `.png` olarak ekleyebilirsiniz.
+**Not:** Stack diyagramı `.md` veya `.png` olarak ekleyebilirsiniz. 
+Dilerseniz nanobananaya kağıda karaladığınız stack diagramını verin o size diyagram üretsin ve buraya png yükleyin. 
+Stack diyagramı md yazım formatı ile çizdirilerek yazdırılabilir, bu da çok ilginç, değişik ve heyecanlı bir deneyim. 
 
 **Teslim Dosyası:**
 
@@ -97,7 +99,7 @@ Aşağıdaki soruları **kendiniz derleyerek deneyin**:
 **Teslim Dosyası:**
 
 ```
-Exercise4_4.java (veya answers.md)
+Exercise4_4.java içine yorum satırı (veya Exercise4_4_answers.md dosyası da ekleyebilirsin)
 ```
 
 ---
@@ -113,9 +115,8 @@ Exercise4_4.java (veya answers.md)
 
 ```
 Exercise4_5.java
-stack_diagram_2.md
+stack_diagram_2.md ya da png
 ```
-
 ---
 
 ## 📘 Exercise 4.6 – Multadd ve expSum
@@ -149,13 +150,9 @@ javac Exercise4_1.java
 java Exercise4_1
 ```
 
-Her klasörde aynı şekilde çalıştırılır.
-
 ---
 
 ## 📤 Teslim
-
-* Tüm klasörler **tek bir repository** içinde olmalıdır.
 * Commit mesajlarını düzenli ve açıklayıcı tutun.
 * Deadline’dan önce push yapmayı unutmayın.
 
