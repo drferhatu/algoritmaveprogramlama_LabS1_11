@@ -1,32 +1,27 @@
-# algoritmaveprogramlama_LabS1_11
-Lab Week - 11
+🚀 Algoritma ve Programlama – Lab S1 Week 11
+Methods and Testing (Think Java Chapter 4)
+GitHub Classroom – Laboratuvar Çalışması
 
-Week 8 – Methods and Testing (Think Java Chapter 4)
-Laboratuvar Çalışması – GitHub Classroom
-
-Bu laboratuvar çalışmasında Think Java Bölüm 4: Methods and Testing içindeki alıştırmaları Java ile uygulayacaksınız.
-
-Her alıştırma ayrı klasör içinde ve tek bir .java dosyası olarak teslim edilecektir.
+Bu laboratuvar çalışmasında Think Java – Bölüm 4: Methods and Testing içindeki alıştırmaları Java ile uygulayacaksınız.
+Her egzersiz kendi klasöründe bulunacak ve tek bir .java dosyası olarak teslim edilecektir.
 
 📌 Genel Kurallar
 
-Her egzersiz kendi klasörü içinde yapılacaktır.
+Her egzersiz kendi klasörü içinde olmalıdır.
 
-Kodunuzu derlenebilir hâlde bırakmak sizin sorumluluğunuzdadır.
+Kodlarınız derlenebilir olmalıdır.
 
-Türkçe karakter kullanmayın (Java kaynak kodu dosyalarında).
+Java kaynak kodlarında Türkçe karakter kullanmayın.
+(ASCII uyumlu: sınıf isimleri, metot isimleri, değişkenler, string içerikleri dahil)
 
-Sadece sınıf adları ve metot adları değil, tüm kaynak dosyası ASCII uyumlu olmalıdır.
+README dosyaları ve açıklamalar Türkçe olabilir.
 
-README veya açıklama dosyalarında Türkçe karakter kullanabilirsiniz.
-
-Kodunuzu adım adım commit edip pushlamayı unutmayın.
+Düzenli commit–push yapmayı unutmayın.
 
 📝 Egzersizler
 
-Aşağıdaki maddeler Think Java 4. bölümdeki egzersizlerin birebir karşılığıdır.
-
-Bu README içinde yalnızca özet verilmiştir. Ayrıntılar için kitap sayfasına bakabilirsiniz.
+Aşağıdaki maddeler Think Java Chapter 4 egzersizlerinin özetidir.
+Detaylar için kitabın ilgili sayfasına bakabilirsiniz.
 
 📘 Exercise 4.1 – Tarih Yazdırma Metotları
 
@@ -36,43 +31,57 @@ printAmerican(day, date, month, year)
 
 printEuropean(day, date, month, year)
 
-Metotları yazın, main içinde test edin.
+Metotlarını yazın ve main içinde test edin.
+
+Dosya adı:
+Exercise4_1.java
 
 📘 Exercise 4.2 – Çalışma Sırası (Flow of Execution)
 
 Görev:
 
-Verilen kodun tüm çalışma sırasını bulun.
+Verilen kodun tüm çalışma sırasını çıkarın.
 
-Her satırın yanına: // 1, // 1, 7, // 3, 9 şeklinde yorum ekleyin.
+Her satırın sonuna çalışma numarasını ekleyin:
+
+// 1
+// 1, 7
+// 3, 9
+
 
 Programın tam çıktısını yazın.
 
-blimp parametresinin ilk değerini yazın.
+blimp parametresinin ilk değerini bulun.
 
-Bu dosyada:
-
+Dosya adı:
 Exercise4_2.java
 
 📘 Exercise 4.3 – Stack Diagram + Çıktı
 
 Görev:
 
-ping ilk çağrıldığında stack diyagramı çizin.
+ping metodu ilk kez çağrıldığında stack diyagramı çizin.
 
 Programın ürettiği tam çıktıyı yazın.
 
-Not: Stack diagramını .md dosyası olarak ekleyebilirsiniz.
+Stack diyagramını .md dosyası olarak ekleyebilirsiniz.
+
+Dosya adları:
+Exercise4_3.java
+Exercise4_3_stack.md (opsiyonel)
 
 📘 Exercise 4.4 – Derleyici Denemeleri
 
-Deneyin:
+Aşağıdakileri derleyip gözlemleyin:
 
 Bir değer döndüren metodu çağırıp sonucunu kullanmazsanız ne olur?
 
-void metodu bir ifadenin içinde kullanırsanız ne olur?
+Bir void metodu ifadenin içinde kullanırsanız (örneğin System.out.println("boo!") + 7;) ne olur?
 
-Cevaplarınızı yorum satırı veya .md dosyasında yazabilirsiniz.
+Cevaplarınızı yorum satırı veya .md dosyası ile ekleyebilirsiniz.
+
+Dosya adı:
+Exercise4_4.java veya Exercise4_4.md
 
 📘 Exercise 4.5 – Flow + Stack Diagram + Çıktı
 
@@ -80,17 +89,38 @@ Görev:
 
 zoop metodu ikinci kez çağrıldığında stack diyagramı çizin.
 
-Programın tam çıktısını bulun.
+Programın tam çıktısını yazın.
 
-Kodunuzu derleyip deneyebilirsiniz.
+İsterseniz kodu derleyip sonucu karşılaştırabilirsiniz.
+
+Dosya adları:
+Exercise4_5.java
+Exercise4_5_stack.md (opsiyonel)
 
 📘 Exercise 4.6 – Multadd ve expSum
 
-Görev:
+Görevler:
 
-multadd(a, b, c) metodu
+multadd(a, b, c) → a * b + c döndüren metodu yazın.
 
-expSum(x) metodu (Math.exp kullanarak)
+expSum(x) →
+
+𝑥
+𝑒
+−
+𝑥
++
+1
+−
+𝑒
+−
+𝑥
+xe
+−x
++1−e
+−x
+
+ifadesini hesaplayın (Math.exp kullanın).
 
 main içinde test edin:
 
@@ -100,32 +130,30 @@ sin(pi/4) + cos(pi/4)/2
 
 log(10) + log(20)
 
-Sonuçları ekranda gösterin.
-
 Dosya adı:
-
 Multadd.java
 
-🧪 Derleme Komutları
+🧪 Derleme ve Çalıştırma
 
-Terminal kullananlar için:
+Her klasörde aşağıdaki komutlar geçerlidir:
 
 javac Exercise4_1.java
 java Exercise4_1
 
 
-Her klasörde aynı şekilde çalıştırılır.
+İlgili egzersize göre dosya ismini değiştirin.
 
-📤 Teslim
+📤 Teslimat Kuralları
 
-Tüm klasörleriniz repository içinde olmalı.
+Tüm egzersiz klasörleri repository içinde bulunmalıdır.
 
-Commit mesajlarını düzenli tutun.
+Commit mesajları anlaşılır ve düzenli olmalıdır.
 
-Deadline’dan önce push yapın.
+Deadline’dan önce mutlaka push yapın.
 
 🏆 Başarılar!
 
-Bu laboratuvar methods konusunu derinlemesine öğrenmeniz için tasarlanmıştır.
-Her egzersiz bir sonrakinin temelini oluşturur.
-Takıldığınız yerde GitHub Discussions veya ders hocasına danışabilirsiniz.
+Bu laboratuvar, methods, flow of execution, stack diagrams ve Math metotları konusunu derinlemesine öğrenmeniz için tasarlanmıştır.
+Her egzersiz bir sonrakine temel oluşturur.
+
+Takıldığınız noktada GitHub Discussions veya ders hocasına danışabilirsiniz.
